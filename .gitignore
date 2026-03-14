@@ -1,5 +1,8 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
+stalker-zone-unity/Library/
+stalker-zone-unity/Temp/
+stalker-zone-unity/Logs/
+stalker-zone-unity/UserSettings/
+
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
