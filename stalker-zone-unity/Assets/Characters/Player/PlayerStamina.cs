@@ -38,6 +38,8 @@ public class PlayerStamina : MonoBehaviour
             _regenTimer = 0f;
 
             if (currentStamina <= 0)
+            {
+                currentStamina = 0;
                 _isExhausted = true;
                 // Force stop sprinting immediately
                 _controller.sprintSpeed = _controller.walkSpeed;
